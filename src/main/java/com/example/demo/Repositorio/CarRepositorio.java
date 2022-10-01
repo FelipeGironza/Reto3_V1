@@ -24,5 +24,8 @@ public class CarRepositorio {
         return carCrudRepository.save(car);
     }
     
+    public void delete (Car car){
+        carCrudRepository.delete(car);
+    }
     
 }
